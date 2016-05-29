@@ -38,6 +38,11 @@ public class Person {
 	public void setBirthday(Date birthday) {
 		this.birthday = birthday;
 	}
+	@Override
+	public String toString() {
+		return "Person [id=" + id + ", name=" + name + ", address=" + address
+				+ ", age=" + age + ", birthday=" + birthday + "]";
+	}
 	
 	
 }
